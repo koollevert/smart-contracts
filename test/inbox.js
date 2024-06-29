@@ -14,9 +14,17 @@ class Car {
   }
 }
 
+let car; //defining car ahead of time
+beforeEach(()=>{
+  car=new Car(); //duplicate should have a helper beforeEach
+});
+// describe for nesting
 describe ('Car',()=>{
-  it('can park', ()=>{
-    const car=new Car();
+  it('can park', ()=>{ //no intrinsic link between the cars
     assert.equal(car.park(), 'stopped');
   });
-}); //no intrinsic link between the cars
+
+  it('can drive', ()=>{
+    assert.equal(car.drive(), 'vrooom');
+  });
+}); 
