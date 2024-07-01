@@ -21,4 +21,6 @@ contract Inbox{  //like a class contracts are essentially class instances
     // }
 }
 
+//helps has get to a node to deploy our contract instead of using our own machine
+
 
