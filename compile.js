@@ -11,7 +11,7 @@ async function main() {
         const artifactsDir = path.join(__dirname, 'artifacts', 'contracts', 'Inbox.sol');
 
         // Specify the contract name
-        const contractName = 'Inbox';
+        const contractName = 'lottery';
         const artifactPath = path.join(artifactsDir, `${contractName}.json`);
 
         // Check if the artifact file exists

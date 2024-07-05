@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "C:\\Users\\joshu\\Desktop\\GdApp\\contracts\\Inbox.sol": {
-      "lastModificationDate": 1719651689911,
-      "contentHash": "ce03c5b29ed45a44233a6f8c9cec4122",
+      "lastModificationDate": 1720216930818,
+      "contentHash": "ca8b6095e2d7999b58412fa8402f97c9",
       "sourceName": "contracts/Inbox.sol",
       "solcConfig": {
         "version": "0.8.0",
@@ -33,7 +33,7 @@
         "^0.8.0"
       ],
       "artifacts": [
-        "Inbox"
+        "lottery"
       ]
     }
   }
